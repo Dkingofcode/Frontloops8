@@ -4,8 +4,9 @@
     border: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: sans-serif;
+    font-family: Roboto;
     background-color: pink;
 }
 
@@ -83,22 +84,27 @@ nav ul li{
 
 .main header{
     border: 1px solid coral;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 100;
     display: flex;
+    line-height: 60px;
+    font-family: Playfair Display;
 }
 
 .main .line{
     border: 1px solid;
     background-color: black;
     height: 3px;
-    width: 30%;
-    margin-top: 100px;
+    width: 35%;
+    margin-top: 90px;
+    margin-right: 60px;
 }
 
 .subheader{
     border: 1px solid;
-    margin: 30px 0;
+    margin: 20px 0 30px 0;
+    font-family: Playfair Display;
+    font-weight: 800;
 }
 
 .content{
@@ -114,44 +120,53 @@ nav ul li{
     grid-column: 1/ span 5;
 }
 
+.whono :nth-child(3){
+    border: 1px sienna;
+}
+
 .video{
     border: 1px solid;
     background-image: url(img/preview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position-x: -14px;
+    background-position-x: -3px;
     height: 120px;
 }
 
 .video img{
    border: 1px solid;
    padding: 6px;
+   background-color: white;
    border-radius: 21px;
    margin-top: 50px;
+   margin-left: 75px;
 }
 
 .whono p{
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 12px;
     border: 1px solid;
+    padding: 0px 0 1px 0;
 }
 
-.video p img{
+.whono p img{
     border: 2px solid red;
     border-radius: none;
+    height: 24px;
+    margin: 2px 0 0 0;
+    padding: 9px 0 0 0;
 }
 
 
 .description {
     border: 1px solid;
     grid-column: 6/ span 7;
-    line-height: 30px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: 16px;
     font-weight: 100;
     padding: 0 20px;
 }
-
 
 
 
