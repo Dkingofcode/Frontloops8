@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+
+.Tour-card{
+   width: 70%;
+   height: 550px;
+   margin: 40px auto;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+}
+
+.aside{
+   border: 1px solid;
+   grid-column: 1 / span 4;
+   background-image: url(img/background.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.direct{
+    margin-left: 30px;
+    font-size: 10px;
+    margin-top: 20px;
+    display: flex;
+    color: gray;
+}
+
+.direct img{
+   width: 5%;
+   margin-right: 10px;
+}
+
+.direct:hover{
+  color: black;
+  cursor: pointer;
+}
+
+
+.entrypage{
+    grid-column: 5 / span 7;
+    border: 1px solid;
+    background-color: white;
+}
+
+nav{
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul{
+    display: flex;
+    border: 1px solid maroon;
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: flex;
+    color: gray;
+    margin-right: 20px;
+    font-size: 9px;
+}
+
+.checked{
+    color: black;
+}
+
+.main{
+    border: 1px solid lawngreen;
+    margin-top: 90px;
+    padding: 0 50px;
+}
+
+.main header{
+    border: 1px solid coral;
+    font-size: 40px;
+    font-weight: 100;
+    display: flex;
+}
+
+.main .line{
+    border: 1px solid;
+    background-color: black;
+    height: 3px;
+    width: 30%;
+    margin-top: 100px;
+}
+
+.subheader{
+    border: 1px solid;
+    margin: 30px 0;
+}
+
+.content{
+    border: 1px solid;
+    display: grid;
+    height: 190px;
+    padding: 0 50px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.whono{
+    border: 1px solid;
+    grid-column: 1/ span 5;
+}
+
+.video{
+    border: 1px solid;
+    background-image: url(img/preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: -14px;
+    height: 120px;
+}
+
+.video img{
+   border: 1px solid;
+   padding: 6px;
+   border-radius: 21px;
+   margin-top: 50px;
+}
+
+.whono p{
+    margin-top: 20px;
+    font-size: 12px;
+    border: 1px solid;
+}
+
+.video p img{
+    border: 2px solid red;
+    border-radius: none;
+}
+
+
+.description {
+    border: 1px solid;
+    grid-column: 6/ span 7;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
